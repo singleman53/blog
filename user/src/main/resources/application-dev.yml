@@ -1,0 +1,8 @@
+server:
+  port: 19000
+spring:
+  application:
+    name: userService
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/user
